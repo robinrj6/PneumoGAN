@@ -1,0 +1,39 @@
+.abstract {
+    height: 80vh;
+    color: black;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.text {
+    margin: 0rem 10rem;
+    font-size: 1.2rem;
+    opacity: 1;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.fadeIn {
+    animation: fadeInDown 1.5s -0.3s;
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media (max-width: 600px) {
+    .text {
+        margin: 0rem 2rem;
+        font-size: large;
+    }
+}

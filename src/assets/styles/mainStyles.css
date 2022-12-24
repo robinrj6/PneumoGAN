@@ -1,0 +1,45 @@
+.home {
+    height: 100vh;
+    color: black;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8rem;
+    font-weight: 1000;
+}
+
+@keyframes ZoomIn {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@media (max-width: 600px) {
+    .home{
+        height: 90vh;
+        overflow: hidden;
+    }
+    .name {
+        font-size: 3rem;
+        font-weight: 1000;
+        margin: 0rem 1rem;
+    }
+    @keyframes ZoomIn {
+        0% {
+            transform: scale(1);
+        }
+    
+        100% {
+            transform: scale(1.2);
+        }
+    }
+}

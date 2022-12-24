@@ -1,0 +1,13 @@
+.architecture {
+    height: 100vh;
+    color: black;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+
+}
+
+img {
+    padding-left: 20rem;
+}

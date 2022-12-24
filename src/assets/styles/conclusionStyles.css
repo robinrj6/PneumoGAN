@@ -1,0 +1,8 @@
+.conclusion {
+    height: 80vh;
+    color: black;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
